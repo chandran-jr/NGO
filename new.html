@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to Go Green Organization!</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<style type="text/css">
+		
+		#heading {
+				font-family: 'Fredericka the Great', cursive;
+				font-size: 100px;
+				color:white; 
+			}
+		.nav-area{
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		body{
+			margin-top:70px;
+			background-image: url(https://images.unsplash.com/photo-1441422454217-519d3ee81350?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c6b9cd37b276dc547554e152446cb6eb&auto=format&fit=crop&w=889&q=80);
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+			text-align: center;
+		}
+		#info{
+			color:white;
+			text-align: center;
+			font-family: 'Montserrat', sans-serif;
+		}
+	</style>
+</head>
+<body>
+	
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container">
+	    <div class="navbar-header">
+	       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button> 
+	      <a class="navbar-brand"><i class="fa fa-tree"></i> GGO</a>
+	    </div>
+
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li><a href="http://127.0.0.1:5000/">Home</a></li>
+	        <li><a href="http://127.0.0.1:5000/about">About</a></li>
+	        <li><a href="http://127.0.0.1:5000/project">Our Project</a></li>
+	        <li><a href="http://127.0.0.1:5000/issue">The Issue</a></li>
+	        <li><a href="http://127.0.0.1:5000/contact">Contact</a></li>
+	      </ul>
+	      <ul class="nav navbar-nav navbar-right">
+	        
+	        <li><a href="http://127.0.0.1:5000/donate">Donate</a></li>
+	        
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+<div class="container">
+	<h1 id="heading">Form Submitted</h1>
+	<br>
+	<h2 id="info">Thank You {{name}} for your helping us save the planet!</h2>
+</div>
+</body>
+</html>
