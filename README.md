@@ -1,4 +1,4 @@
 # ngo
 A website for an NGO organization
 
-https://chandran-jr.github.io/ngo/
+<a href="https://chandran-jr.github.io/ngo/">Click here to view</a>
