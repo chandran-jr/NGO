@@ -1,74 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Donate!!</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	<script>
-		var aud = new Audio();
-		aud.src = "sounds/submittone.mp3";
-		aud.addEventListener("ended", function(){
-       aud.currentTime = 0;
-	   alert("Check your details again and press submit again!!");
-	   document.getElementById("thanks").setAttribute ("href", 'thankyou.html');
-		})
-	</script>
+	<title>Thank You!!</title>
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<link rel="manifest" href="/site.webmanifest">
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<style type="text/css">
-		
-		#heading{
-				font-family: 'Montserrat';
-				font-size: 75px;
-				color:white; 
-				text-align:center; 
-				margin-bottom: 50px;
-				background-color: purple;
-				opacity: 80%;
-			}
 		body{
 			margin-top:70px;
-			background-image: url(https://images.unsplash.com/photo-1581612129334-551ccd069e62?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+			background-image: url(https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
 			background-size: cover;
 			background-position: center;
 			background-attachment: fixed;
 		}
-		#OPA{
-			opacity: 0.9;
-			color :white;
+		.mv{
+			color:white;
+			text-align: center;
+			font-family: 'Montserrat', cursive;
+			font-size: 75px;
+		}
+		#heading{
+			font-family: 'Montserrat', cursive;
+			font-size: 100px;
+			text-align: center;
+			color:white;
+			background-color: teal; 
+		}
+		.quote{
+			color: white;
+			background-color: royalblue;
+			text-align: center;
+		}
+		.lead{
+			color:white;
+			text-align: center;
+			padding-bottom:50px;
 			font-family: 'Montserrat', sans-serif;
+			background-color: purple;
 		}
-		.blank{
-			width:800px;
+		.paras{
+			margin-left: 60px;
 		}
-	button{
-		color: royalblue;
-	}
 		.myButton {
-	box-shadow:inset 0px 44px 0px -24px #e67a73;
-	background-color:#e4685d;
-	border-radius:19px;
-	border:7px solid #ffffff;
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #ffaa22;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+	color:#333333;
 	font-family:Arial;
 	font-size:15px;
 	font-weight:bold;
-	padding:18px 58px;
+	padding:6px 24px;
 	text-decoration:none;
-	text-shadow:0px -1px 50px #f01d0e;
-	margin-left: 45%;
-	size: 10%;
+	text-shadow:0px 1px 0px #f5da0c;
+	margin-left: 40%;
 }
 .myButton:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
 	text-decoration: none;
 }
 .myButton:active {
@@ -78,71 +77,27 @@
 	</style>
 </head>
 <body>
-	<nav class="navbar navbar-inverse navbar-fixed-top">
-	  <div class="container">
-	    <div class="navbar-header">
-	       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button> 
-	      <a class="navbar-brand"><i class="fa fa-child"></i> CFN</a>
-	    </div>
-
-	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      <ul class="nav navbar-nav">
-	       <li><a href="index.html">Home</a></li>
-			<li><a href="about.html">About</a></li>>
-			<li><a href="works.html">Works</a></li>
-	        <li><a href="contact.html">Contact</a></li>
-	      </ul>
-	      <ul class="nav navbar-nav navbar-right">
-	        <li  class="active"><a href="donate.html">Donate</a></li>
-	        
-	      </ul>
-	    </div>
-	  </div>
-	</nav>
-
-	<h1 id="heading">Donate!!</h1>
 	<div class="container">
-		<form id="OPA" class="form-horizontal" method="post">
-		  <div class="form-group">
-		    <label for="Name" class=" col-sm-3 col-sm-offset-1 control-label">Name :</label>
-		    <div class="col-sm-5">
-		      <input type="text" class="form-control" for="Name" name="Name" placeholder="Name" required>
-		    </div>
-		  </div>		  	
-		  <div class="form-group">
-		    <label for="inputEmail3" class=" col-sm-3 col-sm-offset-1 control-label">Email :</label>
-		    <div class="col-sm-5">
-		      <input type="email" class="form-control" name="Email" id="inputEmail3" placeholder="Email" required>
-		    </div>
-		  </div>
-		   <div class="form-group">
-		    <label for="telephone" class=" col-sm-3 col-sm-offset-1 control-label">Phone no. :</label>
-		    <div class="col-sm-5">
-		      <input type="tel" class="form-control" name="Phone" id="telephone" placeholder="Phone" required>
-		    </div>
-		  </div>
-		   <div class="form-group">
-		    <label for="addr" class=" col-sm-3 col-sm-offset-1 control-label">Address :</label>
-		    <div class="col-sm-5">
-		    	<textarea name="Addr" class="form-control" id="addr" rows="4" placeholder="Address" required></textarea>
-		    </div>
-		  </div>
-		  <br>
-		  <a onmousedown="aud.play()" id="thanks" class="myButton" href="#">Submit</a>
-		</form>
-		</form>
-		<br><br>
+		<div class="row mid">
+			<h1 id="heading">Thank You!!</h1>
+		</div>
+	</div>
+	<hr style="width:400px">
+
+	<div class="container" id="tabs-1">
+		<p style="font-size:25px; "><i><h2 class="quote">Thank you for the response!!</h2></i></p>
+
+		<p><h3 class="lead">A hearty thank you from the bottom of our hearts. We at CareFreeNow strive day and night to make the world a better place and every donation, no matter how small, makes a really huge difference!! You are one step closer to making the world a happier place.
+			We will be mailing you soon with the details for the donation and we hope to hear from you!! Your contribution will certainly be like dust of gold for us and we are glad we have likeminded people like you in this world!!
+		</h3>
+		<a href="index.html" class="myButton">Back to Main Page</a>
+	</p>
 	</div>
 
+	
+
+
 <script src="http://code.jquery.com/jquery-2.1.4.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
- function linkedup(){
-	 document.location.href = "thankyou.html";
- }
-</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
